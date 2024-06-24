@@ -37,7 +37,7 @@ namespace Haunt
 
         void OnGameLoad(EventArgs e)
         {
-            RegisterCommand("haunt", "onu.haunt", HauntPlayer, "Haunt your fellow companions.");
+            RegisterCommand("haunt", "", HauntPlayer, "Haunt your fellow companions.");
         }
 
         protected override void Dispose(bool disposing)
